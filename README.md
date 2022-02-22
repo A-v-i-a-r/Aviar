@@ -79,6 +79,7 @@ Express.JS will connect the front end with the back end
 
 How you intend to test the system 
 Exploratory testing will suffice as agreed upon by Dr. Reimer
+
 How you will deploy the system
 Dr Reimer in lectures advised us to always follow the terrain instead of the map when it comes to executing the design. Therefore after some consultation we have come up with three deployment strategies, with the first two being the most plausible. However actual execution may differ as stated previously. 
 Option 1: Cloud DB + Localhost was the original proposition [See Appendix C]
@@ -87,6 +88,7 @@ Option 3: Dr Reimer, for max performance but also more complexity also gave an o
 
 
 Project Planning
+
 Team organization 
 Who does what? 
 Frontend 
@@ -99,6 +101,7 @@ Sebastian Contreras
 Database
 Adesh
 Ivan
+
 How work is coordinated 
 Each week a Scrum Master Scrub Hamster takes charge of the tasks for the week and distributes work according to the state of the project
 Week 1 - Hassan
@@ -108,6 +111,7 @@ Week 4 - Cole Pawliw
 Week 5 - Chace Nielson
 Week 6 - Jacob
 Week 7 - Adesh
+
 Schedule 
 Timing for major development tasks
 Feb 11th - Proposal published
@@ -121,6 +125,8 @@ Week 4 Image Upload (Collections, Themes)
 Week 5 Animations (Parallax, Flow, Dynamic)
 Week 6 Engagement (Comments, Likes)
 Week 7 Testing and Deployment (Exploratory Testing)
+
+
 Appendix 
 Appendix A: MERN Stack by Dr. Tim Reimer for Aviár
 
