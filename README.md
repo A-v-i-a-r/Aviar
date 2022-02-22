@@ -16,16 +16,21 @@ Jacob Nguyen - 30087465
 	Ivan Suyat - 30089089
 Chace Nielson - 30045674
 	Cole Pawliw - 30088796 
+
 Contributors: Dr. Tim Reimer 
 Last updated: Feb 10th 2022
 Status: Final 
+
 Purpose 
+
 In today's digital world artists need a way to showcase their work to viewers in an engaging manner. That is where Aviár comes in to deliver a groundbreaking, avant-garde gallery-like experience for viewers to view and engage with the artist's work. 
 Background Reading 
 https://www.artbusiness.com/weberrors.html
 https://medium.com/swlh/how-to-create-your-first-mern-mongodb-express-js-react-js-and-node-js-stack-7e8b20463e66
 https://www.mongodb.com/languages/mern-stack-tutorial
+
 Context 
+
 Normal art websites focus on the content and disregard the context in which the material is presented. This dismisses the opportunities to use the power of the web to make a truly surreal experience. Using next-generation HTML, CSS and JavaScript animations to push previously perceived limitations aside, Aviár aims to redefine what a web-based art gallery can be. 
 Bland Art Websites:
 https://colorlib.com/wp/art-gallery-websites/
@@ -41,6 +46,7 @@ Overall we can see that the above websites have certain aspects that are interes
 
 
 Detailed Design 
+
 The overall system architecture 
 MVC [See Appendix A]
 Pub/Sub 
@@ -48,21 +54,29 @@ How users interact with the system
 Mouse/Keyboard
 Clicking, scrolling, swiping.
 Through a web user interface, users will be able to scroll through a dynamic art gallery to browse images, search for art by specific users and collections, comment and rate images, save images to their personal collection, and post their own art to the gallery.
+
 How software components interact
+
 MVC will connect the sections of the system with its distinct three layer design and with the control layer mediating between the other two layers [See Appendix A]
-How data flows through the system [See Appendix B]
+
+How data flows through the system [See Appendix B
 Users create posts that get sent to the main server and stored in the database
 Other users request to view an art piece, which then gets pulled from the database and sent to their device
 A search gets sent to the server which will query the database for the associated images, the results get returned to the user
+
+
 Implementation Plan 
+
 Technologies you intend to use 
 MERN Stack - MongoDB, Express.JS, React.js, Node.js 
 How you will manage source code 
 Github- a shared codebase
 https://github.com/orgs/A-v-i-a-r/dashboard
 MongoDB - a shared database
+
 How you will integrate components 
 Express.JS will connect the front end with the back end
+
 How you intend to test the system 
 Exploratory testing will suffice as agreed upon by Dr. Reimer
 How you will deploy the system
