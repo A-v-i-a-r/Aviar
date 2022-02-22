@@ -4,7 +4,10 @@ Aviár
 
 A v i á r
 here your dream come true
+
 Detailed Design & Implementation Plan 
+
+
 Authors:
 Hassan Khan - 30056680
 Adeshpal Virk - 30087952
