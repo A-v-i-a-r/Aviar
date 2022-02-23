@@ -21,6 +21,7 @@ Contributors: Dr. Tim Reimer
 Last updated: Feb 10th 2022
 Status: Final 
 
+
 Purpose 
 
 In today's digital world artists need a way to showcase their work to viewers in an engaging manner. That is where Aviár comes in to deliver a groundbreaking, avant-garde gallery-like experience for viewers to view and engage with the artist's work. 
@@ -118,13 +119,13 @@ Feb 11th - Proposal published
 March 29th - Push to production 
 April 5-12th - Demo/pitch final product to investors
 Development milestones 7 Weeks from Feb 11 - March 29
-Week 1 Database setup (Mongo Cloud DB)
-Week 2 Home Screen (Menus, Logo)
-Week 3 Login (Accounts, Authentication)
-Week 4 Image Upload (Collections, Themes)
-Week 5 Animations (Parallax, Flow, Dynamic)
-Week 6 Engagement (Comments, Likes)
-Week 7 Testing and Deployment (Exploratory Testing)
+	Week 1 Database setup (Mongo Cloud DB)
+	Week 2 Home Screen (Menus, Logo)
+	Week 3 Login (Accounts, Authentication)
+	Week 4 Image Upload (Collections, Themes)
+	Week 5 Animations (Parallax, Flow, Dynamic)
+	Week 6 Engagement (Comments, Likes)
+	Week 7 Testing and Deployment (Exploratory Testing)
 
 
 Appendix 
