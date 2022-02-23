@@ -9,12 +9,12 @@ Detailed Design & Implementation Plan
 
 
 Authors:
-Hassan Khan - 30056680
-Adeshpal Virk - 30087952
-Jacob Nguyen - 30087465
+	Hassan Khan - 30056680
+	Adeshpal Virk - 30087952
+	Jacob Nguyen - 30087465
 	Sebastian Contreras - 30062418
 	Ivan Suyat - 30089089
-Chace Nielson - 30045674
+	Chace Nielson - 30045674
 	Cole Pawliw - 30088796 
 
 Contributors: Dr. Tim Reimer 
