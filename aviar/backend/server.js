@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-require('dotenv').config;
+require('dotenv').config();
 
 const app = express();
 const port = process.env.PORT || 5000;
@@ -10,15 +10,16 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-//DB
-const uri = process.env.ATLAS_URI;
-mongoose.connect(uri, { useNewURIParser: true, useCreateIndex: true});
-const connection = mongoose.connection;
-connection.once('open', () => {
-    console.log("Mongoose DB connection established successfully");
-})
+mongoose.connect('mongodb+srv://aviarUser:caviarPassword@caviar.tbnqs.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {useNewUrlParser: true});
+mongoose.connection.once('open', function(){
+  console.log('Conection has been made!');
+}).on('error', function(error){
+    console.log('Error is: ', error);
+});
 
-//Launch
+
+
+
 app.listen(port, () => {
-    console.log(`Server running on port: ${port}`);
-})
+    console.log(`Server is running on port: ${port}`);
+});
